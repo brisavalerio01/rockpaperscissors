@@ -1,3 +1,7 @@
+body{
+  background:#800517;
+}
+
 .row{
   text-align:center;
   
@@ -6,4 +10,14 @@
   display:flex;
   justify-content:space-between;
   
+}
+#shoot{
+  border:solid blue;
+  background-color:#43C6DB;
+  color:#F62217;
+}
+#input{
+  border:solid black;
+  background-color:#ECC5C0
+;
 }
