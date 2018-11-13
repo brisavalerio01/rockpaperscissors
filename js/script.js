@@ -4,10 +4,30 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+
+
 $("#shoot").click(function(){
-    $("#userChoice").text($("#input").val());
+     userChoice=$("userChoice").val()
+      var randomNumber = Math.random()
+    $("#userChoice").text(userChoice);
+    
+    if(randomNumber >.666) {
+        $("#computerChoice").text("rock");
+    }else if(randomNumber <.666 && randomNumber >.333){
+        $("#computerChoice").text("paper")        
+    }else if(randomNumber <.333){
+        $("#computerChoice").text("paper");
+    } 
 });
 
 
+
+
 // DOCUMENT READY FUNCTION BELOW
+
+var userChoice= ""
+
+var computureChoice= ""
+
+var winner= ""
 
